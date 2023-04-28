@@ -29,3 +29,4 @@ def signup(request):
     return render(request, 'core/singup.html', {
         'form' : form
     })
+
